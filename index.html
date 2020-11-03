@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вычисление остатка</title>
+    <!-- Подключение библиотеки стилей normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Подключение библиотеки стилей style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-titleOcured">
+          <span class="card-titleOcured-text">Вычисление MOD+1</span>
+        </div>
+        <div class="card-textOcured">
+          <span class="card-textOcured-text">
+            Введите ваше число и месяц рождения в соотвествущие поля. (к
+            результату будет прибавлено +1 в соотвествии с ТЗ)
+          </span>
+        </div>
+        <div class="card-formOcured">
+          <input
+            type="text"
+            class="card-formOcured-fild"
+            id="birsday"
+            placeholder="Число"
+            onkeypress="if (isNaN(String.fromCharCode(event.keyCode))) return false;"
+          />
+        </div>
+        <div class="card-formOcured">
+          <input
+            type="text"
+            class="card-formOcured-fild"
+            id="month"
+            placeholder="Месяц"
+            onkeypress="if (isNaN(String.fromCharCode(event.keyCode))) return false;"
+          />
+        </div>
+        <hr />
+        <div class="card-actionOcured">
+          <input
+            type="submit"
+            class="card-actionOcured-button"
+            id="submit"
+            value="Расчитать"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

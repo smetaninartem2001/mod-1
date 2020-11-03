@@ -1,0 +1,122 @@
+/*! Подключение шрифтов*/
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: local("SFProDisplay-Regular"),
+    url("../fonts/SFProDisplay-Regular.woff") format("woff"),
+    url("../fonts/SFProDisplay-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: local("SFProDisplay-Semibold"),
+    url("../fonts/SFProDisplay-Semibold.woff") format("woff"),
+    url("../fonts/SFProDisplay-Semibold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+/*! Основные стили страницы*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SFProDisplay-Regular", sans-serif;
+  background: #e5e5e5;
+}
+
+.birsday::-moz-placeholder {
+  color: #bfbfbf;
+}
+
+.birsday::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+.birsday::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.birsday::placeholder {
+  color: #bfbfbf;
+}
+
+.container {
+  text-align: justify;
+}
+
+.card {
+  height: auto;
+  width: 420px;
+  background: #ffffff;
+  border: 1px solid #dadedf;
+  border-radius: 4px;
+  margin: 250px auto 0 auto;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-titleOcured {
+  padding: 15px;
+  background-color: #212b31;
+  border-radius: 4px 4px 0 0;
+}
+
+.card-textOcured {
+  padding: 15px;
+}
+
+.card-titleOcured-text {
+  display: block;
+  color: #ffffff;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  /* Bold / 20px | 24px */
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+  color: #212b31;
+  display: block;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  /* Bold / 16px | 24px */
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-formOcured {
+  padding: 15px;
+  padding-top: 5px;
+}
+
+.card-formOcured-fild {
+  padding: 4px;
+  padding-left: 10px;
+  width: 100%;
+  color: #212b31;
+  display: block;
+  font-family: "SFProDisplay-Regular", sans-serif;
+  /* Bold / 16px | 24px */
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-actionOcured {
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.card-actionOcured-button {
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #ffdd76;
+}
