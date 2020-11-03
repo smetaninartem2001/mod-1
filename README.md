@@ -8,9 +8,9 @@ This repository was created in order to implement a test task for calculating th
 
 ## `GitHub Pages`
 
-[**`Последняя версия сайта`**]() размещённая на GitHub, которую можно просмотреть со стороны пользователя.
+[**`Последняя версия сайта`**](https://smetaninartem2001.github.io/mod-1/index.html) размещённая на GitHub, которую можно просмотреть со стороны пользователя.
 
-Ссылка: (если не работает текстовая)
+Ссылка: https://smetaninartem2001.github.io/mod-1/index.html (если не работает текстовая)
 
 ____
 ## `Контакты`
